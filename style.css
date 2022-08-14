@@ -1,0 +1,133 @@
+/************TAG SELLECTOR************/
+
+body{
+    background-color: hsl(204, 43%, 93%);
+    margin: 0;
+    position: absolute;
+
+
+}
+h1{
+   color:hsl(179, 62%, 43%) ; 
+   padding: 30px 0 0px 0 ;
+   margin: 0 30px;
+   font-family: 'Karla', sans-serif;
+   font-size: 30px;
+}
+
+h2{
+    color:hsl(204, 43%, 93%) ; 
+   padding-top: 30px;
+    margin: 0 30px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+ }
+
+ p{
+    padding: 0 30px;
+    color:hsl(204, 43%, 93%) ;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    line-height: 20px;
+    
+ }
+ strong{
+    font-size: 30px;  
+    word-break:10px ;
+ }
+ table{
+    font-family:'Karla', sans-serif ;
+    color:hsl(204, 43%, 93%);
+    margin: 0 20px;
+ }
+a{
+    box-shadow: 5px 5px 9px 0 hsl(218, 22%, 67%);
+}
+ 
+/***************CLASS SELLECTOR***************/
+
+
+.box-1{
+    background-color: white;
+    width: 720px;
+    height: 260px;
+    margin: 100px 400px 0;
+    border-radius: 8px 8px 0  0;
+    box-shadow:  9px 12px 9px 0 hsl(218, 22%, 67%) ; 
+
+}
+.guarantee{
+    color: hsl(71, 73%, 54%);
+    padding:20px 0 ;
+    
+}
+.guarantee-text{
+   
+color: hsl(218, 22%, 67%);
+font-size: 15px;
+line-height: 25px;
+text-shadow: 0.5px 0 0  hsl(218, 22%, 67%);
+}
+.box-2{
+    background-color: hsl(179, 62%, 43%);
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    top: 360px;
+     left: 400px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 12px 9px 9px 0 hsl(218, 22%, 67%);
+}
+
+.subs{
+    padding-bottom: 20px;
+}
+
+.subscription{
+     font-family:'Karla', sans-serif ;
+    margin: 0 100px;
+    padding: 20px 0;
+}
+.table-data{
+    font-size: 12px;
+    color:gainsboro;
+    
+}
+
+.box-3{
+    background-color: hsl(179, 62%, 57%);
+    width: 360px;
+    height: 260px;
+    position: absolute;
+    top: 360px;
+     right: 400px;
+     border-bottom-right-radius: 8px;
+     box-shadow: 12px 9px 9px 0 hsl(218, 22%, 67%);
+}
+
+.btn {
+    background: #d0ff36;
+    background-image: -webkit-linear-gradient(top, #d0ff36, #9ac706);
+    background-image: -moz-linear-gradient(top, #d0ff36, #9ac706);
+    background-image: -ms-linear-gradient(top, #d0ff36, #9ac706);
+    background-image: -o-linear-gradient(top, #d0ff36, #9ac706);
+    background-image: linear-gradient(to bottom, #d0ff36, #9ac706);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family:'Karla', sans-serif ;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #e1ff36;
+    background-image: -webkit-linear-gradient(top, #e1ff36, #d8f518);
+    background-image: -moz-linear-gradient(top, #e1ff36, #d8f518);
+    background-image: -ms-linear-gradient(top, #e1ff36, #d8f518);
+    background-image: -o-linear-gradient(top, #e1ff36, #d8f518);
+    background-image: linear-gradient(to bottom, #e1ff36, #d8f518);
+    text-decoration: none;
+  }
